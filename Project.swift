@@ -16,7 +16,9 @@ let project = Project(
             deploymentTarget: .iOS(targetVersion: "13.0", devices: [.iphone, .ipad]),
             infoPlist: "SwitchTuistFinalTest/Info.plist",
             sources: ["SwitchTuistFinalTest/**"],
-            resources: nil,
+            resources: [
+                "SwitchTuistFinalTest/Assets.xcassets"
+            ],
             dependencies: []
         )
     ]
