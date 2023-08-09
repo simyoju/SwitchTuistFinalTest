@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036A1ECAFAE6305CD70672F7 /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */; };
 		2242941CB0EA6A1AC315782D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22921B2AB98E1EF9C0F5996D /* Main.storyboard */; };
 		2279EB2F3F92713AF138CB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054BBF65CAF0D11BE2F5D2DE /* LaunchScreen.storyboard */; };
 		4635BD0A5F88B1B6CEC02D2D /* TuistAssets+SwitchTuistFinalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CAC4A9033FC6EBF19594 /* TuistAssets+SwitchTuistFinalTest.swift */; };
 		48C27581E1E65D9CB1658637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */; };
 		70DF43895F845CCB4D85DAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */; };
+		95B30B0B530641A4613DAFBC /* ObjcTestViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 841969A2F6ED14F6219320B0 /* ObjcTestViewController.m */; };
+		A58745D79960E9D44B159570 /* ObjcTestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 52C24D4ADF1A5172F8C8B0D3 /* ObjcTestViewController.h */; };
 		BC477A8B62A54FD0F58E4213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF178A22C2195D2DE2E69D6C /* Assets.xcassets */; };
 		CF28871E1602258E9021A622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19818E346B183C11CB2733FD /* SceneDelegate.swift */; };
 		D0FB809BB10D533B2E7F0D2E /* TuistBundle+SwitchTuistFinalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A887ECDF606F84755EAD72 /* TuistBundle+SwitchTuistFinalTest.swift */; };
+		F9B3D0B596FF15EE952F9CFE /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841969A2F6ED14F6219320B0 /* ObjcTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,15 +37,16 @@
 		19818E346B183C11CB2733FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		395D19F772ACB8974E2E8215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTuistFinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C24D4ADF1A5172F8C8B0D3 /* ObjcTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcTestViewController.h; sourceTree = "<group>"; };
 		60C4EC5F7B181D93D05AC883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75A887ECDF606F84755EAD72 /* TuistBundle+SwitchTuistFinalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SwitchTuistFinalTest.swift"; sourceTree = "<group>"; };
+		841969A2F6ED14F6219320B0 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
 		9391CAC4A9033FC6EBF19594 /* TuistAssets+SwitchTuistFinalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+SwitchTuistFinalTest.swift"; sourceTree = "<group>"; };
 		97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC0C0CDBFCB99101F1CF311A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD896C1B0792BE1E1D8B11AC /* SwitchTuistFinalTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwitchTuistFinalTest.xcconfig; sourceTree = "<group>"; };
 		D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF178A22C2195D2DE2E69D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +92,10 @@
 			children = (
 				054BBF65CAF0D11BE2F5D2DE /* LaunchScreen.storyboard */,
 				22921B2AB98E1EF9C0F5996D /* Main.storyboard */,
+				D39B5273E7ADC82D331C18FC /* Objc */,
 				D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */,
 				EF178A22C2195D2DE2E69D6C /* Assets.xcassets */,
 				60C4EC5F7B181D93D05AC883 /* Info.plist */,
-				FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */,
 				19818E346B183C11CB2733FD /* SceneDelegate.swift */,
 				97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */,
 			);
@@ -112,6 +115,15 @@
 				3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D39B5273E7ADC82D331C18FC /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				52C24D4ADF1A5172F8C8B0D3 /* ObjcTestViewController.h */,
+				841969A2F6ED14F6219320B0 /* ObjcTestViewController.m */,
+			);
+			path = Objc;
 			sourceTree = "<group>";
 		};
 		EAFF55FE9BC47D58C72A1811 /* Sources */ = {
@@ -181,6 +193,8 @@
 				BC477A8B62A54FD0F58E4213 /* Assets.xcassets in Resources */,
 				2279EB2F3F92713AF138CB75 /* LaunchScreen.storyboard in Resources */,
 				2242941CB0EA6A1AC315782D /* Main.storyboard in Resources */,
+				A58745D79960E9D44B159570 /* ObjcTestViewController.h in Resources */,
+				95B30B0B530641A4613DAFBC /* ObjcTestViewController.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +208,7 @@
 				4635BD0A5F88B1B6CEC02D2D /* TuistAssets+SwitchTuistFinalTest.swift in Sources */,
 				D0FB809BB10D533B2E7F0D2E /* TuistBundle+SwitchTuistFinalTest.swift in Sources */,
 				70DF43895F845CCB4D85DAB3 /* AppDelegate.swift in Sources */,
-				036A1ECAFAE6305CD70672F7 /* ObjcTestViewController.m in Sources */,
+				F9B3D0B596FF15EE952F9CFE /* ObjcTestViewController.m in Sources */,
 				CF28871E1602258E9021A622 /* SceneDelegate.swift in Sources */,
 				48C27581E1E65D9CB1658637 /* ViewController.swift in Sources */,
 			);

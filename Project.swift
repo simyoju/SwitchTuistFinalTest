@@ -19,6 +19,7 @@ let project = Project(
             resources: [
                 "SwitchTuistFinalTest/Assets.xcassets",
                 "SwitchTuistFinalTest/Base.lproj/**",
+                "SwitchTuistFinalTest/Objc/**",
             ],
             dependencies: []
         )
