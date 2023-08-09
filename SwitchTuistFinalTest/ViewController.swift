@@ -14,8 +14,12 @@ import RxCocoa
 import AssetsPickerViewController
 import Photos
 
+import DateToolsSwift
+
 class ViewController: UIViewController {
     private let assetsViewControllerButton = UIButton()
+    private let dateLabel = UILabel()
+    private let ealierResultLabel = UILabel()
     
     lazy var disposeBag = DisposeBag()
 
@@ -32,7 +36,8 @@ class ViewController: UIViewController {
 extension ViewController {
     private func setupView(){
         [
-            assetsViewControllerButton
+            assetsViewControllerButton,
+            dateLabel, ealierResultLabel
         ].forEach {
             view.addSubview($0)
         }
@@ -43,11 +48,27 @@ extension ViewController {
             $0.height.width.equalTo(150)
             $0.centerX.centerY.equalToSuperview()
         }
+        
+        dateLabel.snp.makeConstraints {
+            $0.top.equalTo(assetsViewControllerButton.snp.bottom)
+                .offset(16)
+            $0.centerX.equalToSuperview()
+        }
+        
+        ealierResultLabel.snp.makeConstraints {
+            $0.top.equalTo(dateLabel.snp.bottom)
+                .offset(16)
+            $0.centerX.equalToSuperview()
+        }
     }
     
     private func setupAttribute(){
         assetsViewControllerButton.backgroundColor = .red
         assetsViewControllerButton.setTitle("assetsVCButton", for: .normal)
+        
+        let now = Date()
+        dateLabel.text = "\(now)"
+        ealierResultLabel.text = "\(now.isEarlier(than: now))"
     }
     
     private func setupBinding(){
