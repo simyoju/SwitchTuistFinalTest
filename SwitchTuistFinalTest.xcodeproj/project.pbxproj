@@ -3,74 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C75EC222A83595C004B1826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC212A83595C004B1826 /* AppDelegate.swift */; };
-		3C75EC242A83595C004B1826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC232A83595C004B1826 /* SceneDelegate.swift */; };
-		3C75EC262A83595C004B1826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC252A83595C004B1826 /* ViewController.swift */; };
-		3C75EC292A83595C004B1826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75EC272A83595C004B1826 /* Main.storyboard */; };
-		3C75EC2B2A83595D004B1826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C75EC2A2A83595D004B1826 /* Assets.xcassets */; };
-		3C75EC2E2A83595D004B1826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75EC2C2A83595D004B1826 /* LaunchScreen.storyboard */; };
-		3C75EC392A83595D004B1826 /* SwitchTuistFinalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC382A83595D004B1826 /* SwitchTuistFinalTestTests.swift */; };
-		3C75EC432A83595D004B1826 /* SwitchTuistFinalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC422A83595D004B1826 /* SwitchTuistFinalTestUITests.swift */; };
-		3C75EC452A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC442A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift */; };
-		3C7BF8122A836CF40087B395 /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */; };
+		036A1ECAFAE6305CD70672F7 /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */; };
+		48C27581E1E65D9CB1658637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */; };
+		70DF43895F845CCB4D85DAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */; };
+		CF28871E1602258E9021A622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19818E346B183C11CB2733FD /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3C75EC352A83595D004B1826 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C75EC162A83595C004B1826 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C75EC1D2A83595C004B1826;
-			remoteInfo = SwitchTuistFinalTest;
+/* Begin PBXCopyFilesBuildPhase section */
+		355E79E0A0B3B0900392AD50 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C75EC3F2A83595D004B1826 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C75EC162A83595C004B1826 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C75EC1D2A83595C004B1826;
-			remoteInfo = SwitchTuistFinalTest;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C75EC1E2A83595C004B1826 /* SwitchTuistFinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTuistFinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C75EC212A83595C004B1826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C75EC232A83595C004B1826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C75EC252A83595C004B1826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C75EC282A83595C004B1826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C75EC2A2A83595D004B1826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C75EC2D2A83595D004B1826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3C75EC2F2A83595D004B1826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C75EC342A83595D004B1826 /* SwitchTuistFinalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchTuistFinalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C75EC382A83595D004B1826 /* SwitchTuistFinalTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTuistFinalTestTests.swift; sourceTree = "<group>"; };
-		3C75EC3E2A83595D004B1826 /* SwitchTuistFinalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchTuistFinalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C75EC422A83595D004B1826 /* SwitchTuistFinalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTuistFinalTestUITests.swift; sourceTree = "<group>"; };
-		3C75EC442A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTuistFinalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3C7BF80C2A836A270087B395 /* SwitchTuistFinalTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchTuistFinalTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		3C7BF8102A836CF40087B395 /* ObjcTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcTestViewController.h; sourceTree = "<group>"; };
-		3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
+		19818E346B183C11CB2733FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTuistFinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4EC5F7B181D93D05AC883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD896C1B0792BE1E1D8B11AC /* SwitchTuistFinalTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwitchTuistFinalTest.xcconfig; sourceTree = "<group>"; };
+		D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C75EC1B2A83595C004B1826 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C75EC312A83595D004B1826 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C75EC3B2A83595D004B1826 /* Frameworks */ = {
+		41AAC28D7A4774CD7790484C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,78 +47,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E45BD29FC00EC3BFF276C22 /* Pods */ = {
+		12CA2BFB6AB806CA73551E30 = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		3C75EC152A83595C004B1826 = {
-			isa = PBXGroup;
-			children = (
-				3C75EC202A83595C004B1826 /* SwitchTuistFinalTest */,
-				3C75EC372A83595D004B1826 /* SwitchTuistFinalTestTests */,
-				3C75EC412A83595D004B1826 /* SwitchTuistFinalTestUITests */,
-				3C75EC1F2A83595C004B1826 /* Products */,
-				2E45BD29FC00EC3BFF276C22 /* Pods */,
+				42D7B505FA51B21AC812DB25 /* Project */,
+				98E2B8141817F1F6CCFE4E02 /* Frameworks */,
+				AF2691C5A768ADAC5E94FA37 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3C75EC1F2A83595C004B1826 /* Products */ = {
+		42D7B505FA51B21AC812DB25 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				3C75EC1E2A83595C004B1826 /* SwitchTuistFinalTest.app */,
-				3C75EC342A83595D004B1826 /* SwitchTuistFinalTestTests.xctest */,
-				3C75EC3E2A83595D004B1826 /* SwitchTuistFinalTestUITests.xctest */,
+				93A98EC1129534E0C1EF93E5 /* SwitchTuistFinalTest */,
+				CD896C1B0792BE1E1D8B11AC /* SwitchTuistFinalTest.xcconfig */,
 			);
-			name = Products;
+			name = Project;
 			sourceTree = "<group>";
 		};
-		3C75EC202A83595C004B1826 /* SwitchTuistFinalTest */ = {
+		93A98EC1129534E0C1EF93E5 /* SwitchTuistFinalTest */ = {
 			isa = PBXGroup;
 			children = (
-				3C75EC212A83595C004B1826 /* AppDelegate.swift */,
-				3C75EC232A83595C004B1826 /* SceneDelegate.swift */,
-				3C75EC252A83595C004B1826 /* ViewController.swift */,
-				3C7BF8102A836CF40087B395 /* ObjcTestViewController.h */,
-				3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */,
-				3C75EC272A83595C004B1826 /* Main.storyboard */,
-				3C75EC2A2A83595D004B1826 /* Assets.xcassets */,
-				3C75EC2C2A83595D004B1826 /* LaunchScreen.storyboard */,
-				3C75EC2F2A83595D004B1826 /* Info.plist */,
-				3C7BF80C2A836A270087B395 /* SwitchTuistFinalTest-Bridging-Header.h */,
+				D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */,
+				60C4EC5F7B181D93D05AC883 /* Info.plist */,
+				FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */,
+				19818E346B183C11CB2733FD /* SceneDelegate.swift */,
+				97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */,
 			);
 			path = SwitchTuistFinalTest;
 			sourceTree = "<group>";
 		};
-		3C75EC372A83595D004B1826 /* SwitchTuistFinalTestTests */ = {
+		98E2B8141817F1F6CCFE4E02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3C75EC382A83595D004B1826 /* SwitchTuistFinalTestTests.swift */,
 			);
-			path = SwitchTuistFinalTestTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3C75EC412A83595D004B1826 /* SwitchTuistFinalTestUITests */ = {
+		AF2691C5A768ADAC5E94FA37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C75EC422A83595D004B1826 /* SwitchTuistFinalTestUITests.swift */,
-				3C75EC442A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift */,
+				3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */,
 			);
-			path = SwitchTuistFinalTestUITests;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C75EC1D2A83595C004B1826 /* SwitchTuistFinalTest */ = {
+		238231D05411C9F6114DB200 /* SwitchTuistFinalTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C75EC482A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTest" */;
+			buildConfigurationList = 9A134736C52454DC448C1ABA /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTest" */;
 			buildPhases = (
-				3C75EC1A2A83595C004B1826 /* Sources */,
-				3C75EC1B2A83595C004B1826 /* Frameworks */,
-				3C75EC1C2A83595C004B1826 /* Resources */,
+				ABB3E5395709D6B67E9301AD /* Sources */,
+				54E635C8B35D2A4B9E257116 /* Resources */,
+				355E79E0A0B3B0900392AD50 /* Embed Frameworks */,
+				41AAC28D7A4774CD7790484C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,108 +110,40 @@
 			);
 			name = SwitchTuistFinalTest;
 			productName = SwitchTuistFinalTest;
-			productReference = 3C75EC1E2A83595C004B1826 /* SwitchTuistFinalTest.app */;
+			productReference = 3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3C75EC332A83595D004B1826 /* SwitchTuistFinalTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C75EC4B2A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTestTests" */;
-			buildPhases = (
-				3C75EC302A83595D004B1826 /* Sources */,
-				3C75EC312A83595D004B1826 /* Frameworks */,
-				3C75EC322A83595D004B1826 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C75EC362A83595D004B1826 /* PBXTargetDependency */,
-			);
-			name = SwitchTuistFinalTestTests;
-			productName = SwitchTuistFinalTestTests;
-			productReference = 3C75EC342A83595D004B1826 /* SwitchTuistFinalTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3C75EC3D2A83595D004B1826 /* SwitchTuistFinalTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C75EC4E2A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTestUITests" */;
-			buildPhases = (
-				3C75EC3A2A83595D004B1826 /* Sources */,
-				3C75EC3B2A83595D004B1826 /* Frameworks */,
-				3C75EC3C2A83595D004B1826 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C75EC402A83595D004B1826 /* PBXTargetDependency */,
-			);
-			name = SwitchTuistFinalTestUITests;
-			productName = SwitchTuistFinalTestUITests;
-			productReference = 3C75EC3E2A83595D004B1826 /* SwitchTuistFinalTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3C75EC162A83595C004B1826 /* Project object */ = {
+		7D1D215FE0ABE41324C37D54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = simyo;
 				TargetAttributes = {
-					3C75EC1D2A83595C004B1826 = {
-						CreatedOnToolsVersion = 14.3.1;
-						LastSwiftMigration = 1430;
-					};
-					3C75EC332A83595D004B1826 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 3C75EC1D2A83595C004B1826;
-					};
-					3C75EC3D2A83595D004B1826 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 3C75EC1D2A83595C004B1826;
-					};
 				};
 			};
-			buildConfigurationList = 3C75EC192A83595C004B1826 /* Build configuration list for PBXProject "SwitchTuistFinalTest" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 852386C68E3D9E3024192965 /* Build configuration list for PBXProject "SwitchTuistFinalTest" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 3C75EC152A83595C004B1826;
-			productRefGroup = 3C75EC1F2A83595C004B1826 /* Products */;
+			mainGroup = 12CA2BFB6AB806CA73551E30;
+			productRefGroup = AF2691C5A768ADAC5E94FA37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C75EC1D2A83595C004B1826 /* SwitchTuistFinalTest */,
-				3C75EC332A83595D004B1826 /* SwitchTuistFinalTestTests */,
-				3C75EC3D2A83595D004B1826 /* SwitchTuistFinalTestUITests */,
+				238231D05411C9F6114DB200 /* SwitchTuistFinalTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C75EC1C2A83595C004B1826 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C75EC2E2A83595D004B1826 /* LaunchScreen.storyboard in Resources */,
-				3C75EC2B2A83595D004B1826 /* Assets.xcassets in Resources */,
-				3C75EC292A83595C004B1826 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C75EC322A83595D004B1826 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C75EC3C2A83595D004B1826 /* Resources */ = {
+		54E635C8B35D2A4B9E257116 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,76 +153,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C75EC1A2A83595C004B1826 /* Sources */ = {
+		ABB3E5395709D6B67E9301AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C75EC262A83595C004B1826 /* ViewController.swift in Sources */,
-				3C75EC222A83595C004B1826 /* AppDelegate.swift in Sources */,
-				3C7BF8122A836CF40087B395 /* ObjcTestViewController.m in Sources */,
-				3C75EC242A83595C004B1826 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C75EC302A83595D004B1826 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C75EC392A83595D004B1826 /* SwitchTuistFinalTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C75EC3A2A83595D004B1826 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C75EC432A83595D004B1826 /* SwitchTuistFinalTestUITests.swift in Sources */,
-				3C75EC452A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift in Sources */,
+				70DF43895F845CCB4D85DAB3 /* AppDelegate.swift in Sources */,
+				036A1ECAFAE6305CD70672F7 /* ObjcTestViewController.m in Sources */,
+				CF28871E1602258E9021A622 /* SceneDelegate.swift in Sources */,
+				48C27581E1E65D9CB1658637 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3C75EC362A83595D004B1826 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C75EC1D2A83595C004B1826 /* SwitchTuistFinalTest */;
-			targetProxy = 3C75EC352A83595D004B1826 /* PBXContainerItemProxy */;
-		};
-		3C75EC402A83595D004B1826 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C75EC1D2A83595C004B1826 /* SwitchTuistFinalTest */;
-			targetProxy = 3C75EC3F2A83595D004B1826 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3C75EC272A83595C004B1826 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C75EC282A83595C004B1826 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C75EC2C2A83595D004B1826 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C75EC2D2A83595D004B1826 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		3C75EC462A83595D004B1826 /* Debug */ = {
+		0863E2FB7CE3EF1D0EB315BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD896C1B0792BE1E1D8B11AC /* SwitchTuistFinalTest.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -366,6 +203,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -383,249 +221,56 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC7C51AB5F34D211840B3C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwitchTuistFinalTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com;
+				PRODUCT_NAME = SwitchTuistFinalTest;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		3C75EC472A83595D004B1826 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3C75EC492A83595D004B1826 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6GGFAY4XMT;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwitchTuistFinalTest/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwitchTuistFinalTest/SwitchTuistFinalTest-Bridging-Header.h";
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		3C75EC4A2A83595D004B1826 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6GGFAY4XMT;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwitchTuistFinalTest/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwitchTuistFinalTest/SwitchTuistFinalTest-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3C75EC4C2A83595D004B1826 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6GGFAY4XMT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchTuistFinalTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwitchTuistFinalTest";
-			};
-			name = Debug;
-		};
-		3C75EC4D2A83595D004B1826 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6GGFAY4XMT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchTuistFinalTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwitchTuistFinalTest";
-			};
-			name = Release;
-		};
-		3C75EC4F2A83595D004B1826 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6GGFAY4XMT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwitchTuistFinalTest;
-			};
-			name = Debug;
-		};
-		3C75EC502A83595D004B1826 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6GGFAY4XMT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwitchTuistFinalTest;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C75EC192A83595C004B1826 /* Build configuration list for PBXProject "SwitchTuistFinalTest" */ = {
+		852386C68E3D9E3024192965 /* Build configuration list for PBXProject "SwitchTuistFinalTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C75EC462A83595D004B1826 /* Debug */,
-				3C75EC472A83595D004B1826 /* Release */,
+				0863E2FB7CE3EF1D0EB315BA /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		3C75EC482A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTest" */ = {
+		9A134736C52454DC448C1ABA /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C75EC492A83595D004B1826 /* Debug */,
-				3C75EC4A2A83595D004B1826 /* Release */,
+				CC7C51AB5F34D211840B3C23 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C75EC4B2A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C75EC4C2A83595D004B1826 /* Debug */,
-				3C75EC4D2A83595D004B1826 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C75EC4E2A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C75EC4F2A83595D004B1826 /* Debug */,
-				3C75EC502A83595D004B1826 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3C75EC162A83595C004B1826 /* Project object */;
+	rootObject = 7D1D215FE0ABE41324C37D54 /* Project object */;
 }
