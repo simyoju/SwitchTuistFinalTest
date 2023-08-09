@@ -5,7 +5,7 @@ import ProjectDescription
 
 let project = Project(
     name: "SwitchTuistFinalTest",
-    organizationName: "simyo",
+    organizationName: "hyoju sim",
     settings: baseSettings(),
     targets: [
         Target(
