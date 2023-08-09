@@ -16,6 +16,7 @@
 		3C75EC392A83595D004B1826 /* SwitchTuistFinalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC382A83595D004B1826 /* SwitchTuistFinalTestTests.swift */; };
 		3C75EC432A83595D004B1826 /* SwitchTuistFinalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC422A83595D004B1826 /* SwitchTuistFinalTestUITests.swift */; };
 		3C75EC452A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC442A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift */; };
+		3C7BF8122A836CF40087B395 /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */; };
 		68C0435815A6B4C2F5A24B09 /* Pods_SwitchTuistFinalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A821499AD58601C0C2004386 /* Pods_SwitchTuistFinalTestTests.framework */; };
 		D25D39739D1316DA04A5FB91 /* Pods_SwitchTuistFinalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAF7B7344B080FD02DE4BFB /* Pods_SwitchTuistFinalTest.framework */; };
 		EE18112FBD2B2FC867F11D79 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C3555F73D2A023BA9CFB9 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework */; };
@@ -53,6 +54,9 @@
 		3C75EC3E2A83595D004B1826 /* SwitchTuistFinalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchTuistFinalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C75EC422A83595D004B1826 /* SwitchTuistFinalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTuistFinalTestUITests.swift; sourceTree = "<group>"; };
 		3C75EC442A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTuistFinalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C7BF80C2A836A270087B395 /* SwitchTuistFinalTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchTuistFinalTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C7BF8102A836CF40087B395 /* ObjcTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcTestViewController.h; sourceTree = "<group>"; };
+		3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
 		442F84089110FCBDCDDF53C8 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5EBB685A77B9407A461537C7 /* Pods-SwitchTuistFinalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTest.release.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTest/Pods-SwitchTuistFinalTest.release.xcconfig"; sourceTree = "<group>"; };
 		5F9E23891A68A049446254C7 /* Pods-SwitchTuistFinalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTestTests/Pods-SwitchTuistFinalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,10 +136,13 @@
 				3C75EC212A83595C004B1826 /* AppDelegate.swift */,
 				3C75EC232A83595C004B1826 /* SceneDelegate.swift */,
 				3C75EC252A83595C004B1826 /* ViewController.swift */,
+				3C7BF8102A836CF40087B395 /* ObjcTestViewController.h */,
+				3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */,
 				3C75EC272A83595C004B1826 /* Main.storyboard */,
 				3C75EC2A2A83595D004B1826 /* Assets.xcassets */,
 				3C75EC2C2A83595D004B1826 /* LaunchScreen.storyboard */,
 				3C75EC2F2A83595D004B1826 /* Info.plist */,
+				3C7BF80C2A836A270087B395 /* SwitchTuistFinalTest-Bridging-Header.h */,
 			);
 			path = SwitchTuistFinalTest;
 			sourceTree = "<group>";
@@ -240,6 +247,7 @@
 				TargetAttributes = {
 					3C75EC1D2A83595C004B1826 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					3C75EC332A83595D004B1826 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -408,6 +416,7 @@
 			files = (
 				3C75EC262A83595C004B1826 /* ViewController.swift in Sources */,
 				3C75EC222A83595C004B1826 /* AppDelegate.swift in Sources */,
+				3C7BF8122A836CF40087B395 /* ObjcTestViewController.m in Sources */,
 				3C75EC242A83595C004B1826 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GGFAY4XMT;
@@ -603,6 +613,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwitchTuistFinalTest/SwitchTuistFinalTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -614,6 +626,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GGFAY4XMT;
@@ -633,6 +646,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = switchTuistFinalTest.simyo.com.SwitchTuistFinalTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwitchTuistFinalTest/SwitchTuistFinalTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

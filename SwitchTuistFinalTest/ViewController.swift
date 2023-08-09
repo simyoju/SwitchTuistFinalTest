@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     private let dateLabel = UILabel()
     private let ealierResultLabel = UILabel()
     
+    private let presentingObjcVCButton = UIButton()
+    
     lazy var disposeBag = DisposeBag()
 
     override func viewDidLoad() {
@@ -39,7 +41,8 @@ extension ViewController {
         [
             logoImageView,
             assetsViewControllerButton,
-            dateLabel, ealierResultLabel
+            dateLabel, ealierResultLabel,
+            presentingObjcVCButton
         ].forEach {
             view.addSubview($0)
         }
@@ -69,6 +72,14 @@ extension ViewController {
                 .offset(16)
             $0.centerX.equalToSuperview()
         }
+        
+        presentingObjcVCButton.snp.makeConstraints {
+            $0.top.equalTo(ealierResultLabel.snp.bottom)
+                .offset(16)
+            $0.width.equalTo(150)
+            $0.height.equalTo(52)
+            $0.centerX.equalToSuperview()
+        }
     }
     
     private func setupAttribute(){
@@ -80,6 +91,9 @@ extension ViewController {
         let now = Date()
         dateLabel.text = "\(now)"
         ealierResultLabel.text = "\(now.isEarlier(than: now))"
+        
+        presentingObjcVCButton.setTitle("move To objcVC", for: .normal)
+        presentingObjcVCButton.backgroundColor = .blue
     }
     
     private func setupBinding(){
@@ -89,6 +103,16 @@ extension ViewController {
                 guard let self = self else { return }
                 let nextVC = self.setupAssetsPickerView()
                 nextVC.modalPresentationStyle = .overFullScreen
+                self.present(nextVC, animated: false)
+            })
+            .disposed(by: disposeBag)
+        
+        presentingObjcVCButton.rx.tap
+            .asDriver()
+            .drive(onNext: { [weak self] _ in
+                guard let self = self else { return }
+                let nextVC = ObjcTestViewController()
+//                nextVC.modalPresentationStyle = .overFullScreen
                 self.present(nextVC, animated: false)
             })
             .disposed(by: disposeBag)
