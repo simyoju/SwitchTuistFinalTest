@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		036A1ECAFAE6305CD70672F7 /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE232E0021546F66D57F2A92 /* ObjcTestViewController.m */; };
+		2242941CB0EA6A1AC315782D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22921B2AB98E1EF9C0F5996D /* Main.storyboard */; };
+		2279EB2F3F92713AF138CB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054BBF65CAF0D11BE2F5D2DE /* LaunchScreen.storyboard */; };
 		4635BD0A5F88B1B6CEC02D2D /* TuistAssets+SwitchTuistFinalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CAC4A9033FC6EBF19594 /* TuistAssets+SwitchTuistFinalTest.swift */; };
 		48C27581E1E65D9CB1658637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */; };
 		70DF43895F845CCB4D85DAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */; };
@@ -31,11 +33,13 @@
 
 /* Begin PBXFileReference section */
 		19818E346B183C11CB2733FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		395D19F772ACB8974E2E8215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTuistFinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C4EC5F7B181D93D05AC883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75A887ECDF606F84755EAD72 /* TuistBundle+SwitchTuistFinalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SwitchTuistFinalTest.swift"; sourceTree = "<group>"; };
 		9391CAC4A9033FC6EBF19594 /* TuistAssets+SwitchTuistFinalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+SwitchTuistFinalTest.swift"; sourceTree = "<group>"; };
 		97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0C0CDBFCB99101F1CF311A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD896C1B0792BE1E1D8B11AC /* SwitchTuistFinalTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwitchTuistFinalTest.xcconfig; sourceTree = "<group>"; };
 		D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF178A22C2195D2DE2E69D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		93A98EC1129534E0C1EF93E5 /* SwitchTuistFinalTest */ = {
 			isa = PBXGroup;
 			children = (
+				054BBF65CAF0D11BE2F5D2DE /* LaunchScreen.storyboard */,
+				22921B2AB98E1EF9C0F5996D /* Main.storyboard */,
 				D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */,
 				EF178A22C2195D2DE2E69D6C /* Assets.xcassets */,
 				60C4EC5F7B181D93D05AC883 /* Info.plist */,
@@ -173,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC477A8B62A54FD0F58E4213 /* Assets.xcassets in Resources */,
+				2279EB2F3F92713AF138CB75 /* LaunchScreen.storyboard in Resources */,
+				2242941CB0EA6A1AC315782D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +201,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054BBF65CAF0D11BE2F5D2DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395D19F772ACB8974E2E8215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		22921B2AB98E1EF9C0F5996D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0C0CDBFCB99101F1CF311A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0863E2FB7CE3EF1D0EB315BA /* Debug */ = {
