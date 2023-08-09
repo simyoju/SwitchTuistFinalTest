@@ -120,9 +120,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				ORGANIZATIONNAME = simyo;
-				TargetAttributes = {
-				};
+				ORGANIZATIONNAME = "hyoju sim";
 			};
 			buildConfigurationList = 852386C68E3D9E3024192965 /* Build configuration list for PBXProject "SwitchTuistFinalTest" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -231,6 +229,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6GGFAY4XMT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwitchTuistFinalTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
