@@ -17,7 +17,8 @@ let project = Project(
             infoPlist: "SwitchTuistFinalTest/Info.plist",
             sources: ["SwitchTuistFinalTest/**"],
             resources: [
-                "SwitchTuistFinalTest/Assets.xcassets"
+                "SwitchTuistFinalTest/Assets.xcassets",
+                "SwitchTuistFinalTest/Base.lproj/**",
             ],
             dependencies: []
         )
