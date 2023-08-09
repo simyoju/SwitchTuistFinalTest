@@ -17,6 +17,7 @@ import Photos
 import DateToolsSwift
 
 class ViewController: UIViewController {
+    private let logoImageView = UIImageView()
     private let assetsViewControllerButton = UIButton()
     private let dateLabel = UILabel()
     private let ealierResultLabel = UILabel()
@@ -36,6 +37,7 @@ class ViewController: UIViewController {
 extension ViewController {
     private func setupView(){
         [
+            logoImageView,
             assetsViewControllerButton,
             dateLabel, ealierResultLabel
         ].forEach {
@@ -47,6 +49,13 @@ extension ViewController {
         assetsViewControllerButton.snp.makeConstraints {
             $0.height.width.equalTo(150)
             $0.centerX.centerY.equalToSuperview()
+        }
+        
+        logoImageView.snp.makeConstraints {
+            $0.bottom.equalTo(assetsViewControllerButton.snp.top)
+                .offset(-24)
+            $0.width.height.equalTo(120)
+            $0.centerX.equalToSuperview()
         }
         
         dateLabel.snp.makeConstraints {
@@ -65,6 +74,8 @@ extension ViewController {
     private func setupAttribute(){
         assetsViewControllerButton.backgroundColor = .red
         assetsViewControllerButton.setTitle("assetsVCButton", for: .normal)
+        
+        logoImageView.image = UIImage(named: "logo")
         
         let now = Date()
         dateLabel.text = "\(now)"
