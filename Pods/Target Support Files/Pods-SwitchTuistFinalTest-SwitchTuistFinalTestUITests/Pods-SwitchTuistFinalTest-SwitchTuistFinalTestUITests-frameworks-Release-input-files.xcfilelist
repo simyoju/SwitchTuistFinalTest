@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AssetsPickerViewController/AssetsPickerViewController.framework
+${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework
+${BUILT_PRODUCTS_DIR}/Device/Device.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
