@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests : NSObject
-@end
-@implementation PodsDummy_Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests
-@end

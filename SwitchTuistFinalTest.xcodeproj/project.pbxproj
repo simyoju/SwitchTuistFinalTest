@@ -17,9 +17,6 @@
 		3C75EC432A83595D004B1826 /* SwitchTuistFinalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC422A83595D004B1826 /* SwitchTuistFinalTestUITests.swift */; };
 		3C75EC452A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75EC442A83595D004B1826 /* SwitchTuistFinalTestUITestsLaunchTests.swift */; };
 		3C7BF8122A836CF40087B395 /* ObjcTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */; };
-		68C0435815A6B4C2F5A24B09 /* Pods_SwitchTuistFinalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A821499AD58601C0C2004386 /* Pods_SwitchTuistFinalTestTests.framework */; };
-		D25D39739D1316DA04A5FB91 /* Pods_SwitchTuistFinalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAF7B7344B080FD02DE4BFB /* Pods_SwitchTuistFinalTest.framework */; };
-		EE18112FBD2B2FC867F11D79 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C3555F73D2A023BA9CFB9 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CAF7B7344B080FD02DE4BFB /* Pods_SwitchTuistFinalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchTuistFinalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C75EC1E2A83595C004B1826 /* SwitchTuistFinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTuistFinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C75EC212A83595C004B1826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C75EC232A83595C004B1826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,14 +53,6 @@
 		3C7BF80C2A836A270087B395 /* SwitchTuistFinalTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchTuistFinalTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		3C7BF8102A836CF40087B395 /* ObjcTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcTestViewController.h; sourceTree = "<group>"; };
 		3C7BF8112A836CF40087B395 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
-		442F84089110FCBDCDDF53C8 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5EBB685A77B9407A461537C7 /* Pods-SwitchTuistFinalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTest.release.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTest/Pods-SwitchTuistFinalTest.release.xcconfig"; sourceTree = "<group>"; };
-		5F9E23891A68A049446254C7 /* Pods-SwitchTuistFinalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTestTests/Pods-SwitchTuistFinalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B64054D935C5B474E381D6E /* Pods-SwitchTuistFinalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTestTests.release.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTestTests/Pods-SwitchTuistFinalTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		A821499AD58601C0C2004386 /* Pods_SwitchTuistFinalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchTuistFinalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD6F46F48CC394FB97BC9359 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B29C3555F73D2A023BA9CFB9 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4726D0893A98FDF0A8CD175 /* Pods-SwitchTuistFinalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchTuistFinalTest.debug.xcconfig"; path = "Target Support Files/Pods-SwitchTuistFinalTest/Pods-SwitchTuistFinalTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D25D39739D1316DA04A5FB91 /* Pods_SwitchTuistFinalTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C0435815A6B4C2F5A24B09 /* Pods_SwitchTuistFinalTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE18112FBD2B2FC867F11D79 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +83,6 @@
 		2E45BD29FC00EC3BFF276C22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4726D0893A98FDF0A8CD175 /* Pods-SwitchTuistFinalTest.debug.xcconfig */,
-				5EBB685A77B9407A461537C7 /* Pods-SwitchTuistFinalTest.release.xcconfig */,
-				AD6F46F48CC394FB97BC9359 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.debug.xcconfig */,
-				442F84089110FCBDCDDF53C8 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig */,
-				5F9E23891A68A049446254C7 /* Pods-SwitchTuistFinalTestTests.debug.xcconfig */,
-				6B64054D935C5B474E381D6E /* Pods-SwitchTuistFinalTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -116,7 +95,6 @@
 				3C75EC412A83595D004B1826 /* SwitchTuistFinalTestUITests */,
 				3C75EC1F2A83595C004B1826 /* Products */,
 				2E45BD29FC00EC3BFF276C22 /* Pods */,
-				E54B47329FD12BB99DC0EAD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,16 +142,6 @@
 			path = SwitchTuistFinalTestUITests;
 			sourceTree = "<group>";
 		};
-		E54B47329FD12BB99DC0EAD5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1CAF7B7344B080FD02DE4BFB /* Pods_SwitchTuistFinalTest.framework */,
-				B29C3555F73D2A023BA9CFB9 /* Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests.framework */,
-				A821499AD58601C0C2004386 /* Pods_SwitchTuistFinalTestTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,11 +149,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C75EC482A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTest" */;
 			buildPhases = (
-				9F440B26BAAD2D8A12F237B5 /* [CP] Check Pods Manifest.lock */,
 				3C75EC1A2A83595C004B1826 /* Sources */,
 				3C75EC1B2A83595C004B1826 /* Frameworks */,
 				3C75EC1C2A83595C004B1826 /* Resources */,
-				5C41617377D0B89BCBAC2B6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,7 +166,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C75EC4B2A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTestTests" */;
 			buildPhases = (
-				8C93EFD3776F0C134DB08C48 /* [CP] Check Pods Manifest.lock */,
 				3C75EC302A83595D004B1826 /* Sources */,
 				3C75EC312A83595D004B1826 /* Frameworks */,
 				3C75EC322A83595D004B1826 /* Resources */,
@@ -219,11 +184,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C75EC4E2A83595D004B1826 /* Build configuration list for PBXNativeTarget "SwitchTuistFinalTestUITests" */;
 			buildPhases = (
-				AB0A65E28A263D1E0E2A0BD3 /* [CP] Check Pods Manifest.lock */,
 				3C75EC3A2A83595D004B1826 /* Sources */,
 				3C75EC3B2A83595D004B1826 /* Frameworks */,
 				3C75EC3C2A83595D004B1826 /* Resources */,
-				EC672B025E862111105E0F75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,109 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5C41617377D0B89BCBAC2B6A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest/Pods-SwitchTuistFinalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest/Pods-SwitchTuistFinalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest/Pods-SwitchTuistFinalTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C93EFD3776F0C134DB08C48 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwitchTuistFinalTestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9F440B26BAAD2D8A12F237B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwitchTuistFinalTest-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB0A65E28A263D1E0E2A0BD3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC672B025E862111105E0F75 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests/Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C75EC1A2A83595C004B1826 /* Sources */ = {
@@ -589,7 +449,6 @@
 		};
 		3C75EC492A83595D004B1826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4726D0893A98FDF0A8CD175 /* Pods-SwitchTuistFinalTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -622,7 +481,6 @@
 		};
 		3C75EC4A2A83595D004B1826 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EBB685A77B9407A461537C7 /* Pods-SwitchTuistFinalTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -654,7 +512,6 @@
 		};
 		3C75EC4C2A83595D004B1826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F9E23891A68A049446254C7 /* Pods-SwitchTuistFinalTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -675,7 +532,6 @@
 		};
 		3C75EC4D2A83595D004B1826 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B64054D935C5B474E381D6E /* Pods-SwitchTuistFinalTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -696,7 +552,6 @@
 		};
 		3C75EC4F2A83595D004B1826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD6F46F48CC394FB97BC9359 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -715,7 +570,6 @@
 		};
 		3C75EC502A83595D004B1826 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 442F84089110FCBDCDDF53C8 /* Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

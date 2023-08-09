@@ -1,6 +1,0 @@
-framework module Pods_SwitchTuistFinalTest_SwitchTuistFinalTestUITests {
-  umbrella header "Pods-SwitchTuistFinalTest-SwitchTuistFinalTestUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
