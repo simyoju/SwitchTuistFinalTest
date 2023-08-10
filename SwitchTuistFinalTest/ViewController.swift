@@ -14,7 +14,7 @@ import RxCocoa
 import AssetsPickerViewController
 import Photos
 
-import DateToolsSwift
+import DateTools
 
 class ViewController: UIViewController {
     private let logoImageView = UIImageView()

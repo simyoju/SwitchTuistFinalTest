@@ -6,6 +6,12 @@ import ProjectDescription
 let project = Project(
     name: "SwitchTuistFinalTest",
     organizationName: "hyoju sim",
+    packages: [
+        .remote(url: "https://github.com/DragonCherry/AssetsPickerViewController",
+                requirement: .upToNextMajor(from: "2.9.3")),
+        .remote(url: "https://github.com/MatthewYork/DateTools.git", requirement: .upToNextMajor(from: "6.2.2"))
+
+    ],
     settings: baseSettings(),
     targets: [
         Target(
@@ -21,7 +27,7 @@ let project = Project(
                 "SwitchTuistFinalTest/Base.lproj/**",
                 "SwitchTuistFinalTest/Objc/**",
             ],
-            dependencies: []
+            dependencies: setupDependencies()
         )
     ]
 )
@@ -34,4 +40,15 @@ private func baseSettings() -> Settings {
                              ],
                              defaultSettings: .recommended(excluding: ["ASSETCATALOG_COMPILER_APPICON_NAME"])
     )
+}
+
+private func setupDependencies() -> [TargetDependency] {
+    return [
+        .external(name: "RxSwift"),
+        .external(name: "RxCocoa"),
+        .external(name: "DateTools"),
+        .package(product: "AssetsPickerViewController"),
+        .package(product: "DateTools"),
+//        .xcframework(path: "Xcframework/DateTools.xcframework")
+    ]
 }
