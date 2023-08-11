@@ -104,9 +104,18 @@
 		5D3D9ECD87ED1DFFB34A9DE8 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
+				758AD50F61A0ABF8CD891C4A /* InfoPlists */,
 				EAFF55FE9BC47D58C72A1811 /* Sources */,
 			);
 			path = Derived;
+			sourceTree = "<group>";
+		};
+		758AD50F61A0ABF8CD891C4A /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				E6712F7A452CA2E8DA7F5369 /* SwitchTuistFinalTest-Info.plist */,
+			);
+			path = InfoPlists;
 			sourceTree = "<group>";
 		};
 		93A98EC1129534E0C1EF93E5 /* SwitchTuistFinalTest */ = {
@@ -117,7 +126,6 @@
 				D39B5273E7ADC82D331C18FC /* Objc */,
 				D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */,
 				EF178A22C2195D2DE2E69D6C /* Assets.xcassets */,
-				60C4EC5F7B181D93D05AC883 /* Info.plist */,
 				19818E346B183C11CB2733FD /* SceneDelegate.swift */,
 				97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */,
 			);
@@ -344,7 +352,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/Xcframework",
 				);
-				INFOPLIST_FILE = SwitchTuistFinalTest/Info.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/SwitchTuistFinalTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
