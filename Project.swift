@@ -18,7 +18,8 @@ let project = Project(
             product: .app,
             bundleId: "switchTuistFinalTest.simyo.com",
             deploymentTarget: .iOS(targetVersion: "13.0", devices: [.iphone, .ipad]),
-            infoPlist: "SwitchTuistFinalTest/Info.plist",
+//            infoPlist: "SwitchTuistFinalTest/Info.plist",
+            infoPlist: makeInfoPlist(),
             sources: ["SwitchTuistFinalTest/**"],
             resources: [
                 "SwitchTuistFinalTest/Assets.xcassets",
@@ -49,5 +50,33 @@ private func setupDependencies() -> [TargetDependency] {
     ]
 }
 
+private func makeInfoPlist(merging other: [String: InfoPlist.Value] = [:]) -> InfoPlist {
+    var extendedPlist: [String: InfoPlist.Value] = [
+        "UIApplicationSceneManifest": [
+            "UIAppliactionSupportsMultipleScenes": true,
+            "UISceneConfigurations": [
+                "UIWindowSceneSessionRoleApplication": [
+                    [
+                        "UISceneConfigurationName": "Default Configuration",
+                        "UISceneDelegateClassName": "$(PRODUCT_MODULE_NAME).SceneDelegate",
+                        "UISceneStoryboardFile": "Main"
+                    ],
+                ]
+            ]
+        ],
+        "UILaunchScreen": [],
+        "UISupportedInterfaceOrientations":
+            [
+                "UIInterfaceOrientationPortrait",
+            ],
+        "CFBundleShortVersionString": "1.0.0",
+        "CFBundleVersion": "1",
+        "CFBundleDisplayName": "simyo",
     ]
+    
+    other.forEach { (key: String, value: InfoPlist.Value) in
+        extendedPlist[key] = value
+    }
+    
+    return InfoPlist.extendingDefault(with: extendedPlist)
 }
