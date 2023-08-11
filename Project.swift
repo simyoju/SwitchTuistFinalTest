@@ -1,5 +1,5 @@
 // Project.swift
-
+// swift-tools-version:5.8
 
 import ProjectDescription
 
@@ -9,8 +9,6 @@ let project = Project(
     packages: [
         .remote(url: "https://github.com/DragonCherry/AssetsPickerViewController",
                 requirement: .upToNextMajor(from: "2.9.3")),
-        .remote(url: "https://github.com/MatthewYork/DateTools.git", requirement: .upToNextMajor(from: "6.2.2"))
-
     ],
     settings: baseSettings(),
     targets: [
@@ -46,9 +44,10 @@ private func setupDependencies() -> [TargetDependency] {
     return [
         .external(name: "RxSwift"),
         .external(name: "RxCocoa"),
-        .external(name: "DateTools"),
         .package(product: "AssetsPickerViewController"),
-        .package(product: "DateTools"),
-//        .xcframework(path: "Xcframework/DateTools.xcframework")
+        .xcframework(path: "Xcframework/DateToolsSwift.xcframework")
+    ]
+}
+
     ]
 }

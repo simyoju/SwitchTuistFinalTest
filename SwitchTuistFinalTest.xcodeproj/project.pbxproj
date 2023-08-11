@@ -11,9 +11,9 @@
 		2279EB2F3F92713AF138CB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054BBF65CAF0D11BE2F5D2DE /* LaunchScreen.storyboard */; };
 		24A83F02B7646B64E38DC088 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9572B530DFE9FF56D05DE6 /* RxSwift.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2F2697DFDFE2FAFE06FACB75 /* RxCocoaRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171DAAE1240A6E2BEF09FEAE /* RxCocoaRuntime.framework */; platformFilter = ios; };
+		3455ACBD7586DB558051E5D8 /* DateToolsSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 477CF7888835F53888E37A58 /* DateToolsSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		36013104F78E9E9CD60EA84C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9572B530DFE9FF56D05DE6 /* RxSwift.framework */; platformFilter = ios; };
 		3C7A91D717E393C2E3AF925E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0CDACFBC943CB675DCE36 /* RxCocoa.framework */; platformFilter = ios; };
-		43CE32CCE3BFEA0CB879713D /* DateTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5BFB91B411A6712D15FCC7 /* DateTools.xcframework */; };
 		4635BD0A5F88B1B6CEC02D2D /* TuistAssets+SwitchTuistFinalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CAC4A9033FC6EBF19594 /* TuistAssets+SwitchTuistFinalTest.swift */; };
 		48C27581E1E65D9CB1658637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCDD0FC1CF7DA591BEA49B /* ViewController.swift */; };
 		70DF43895F845CCB4D85DAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */; };
@@ -21,6 +21,7 @@
 		95B30B0B530641A4613DAFBC /* ObjcTestViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 841969A2F6ED14F6219320B0 /* ObjcTestViewController.m */; };
 		A58745D79960E9D44B159570 /* ObjcTestViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 52C24D4ADF1A5172F8C8B0D3 /* ObjcTestViewController.h */; };
 		BC477A8B62A54FD0F58E4213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF178A22C2195D2DE2E69D6C /* Assets.xcassets */; };
+		CD7286A51290CC290844A2BB /* DateToolsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477CF7888835F53888E37A58 /* DateToolsSwift.xcframework */; };
 		CE171161B85EBE3873E5058A /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F442410EAD67E536B923EE /* RxRelay.framework */; platformFilter = ios; };
 		CF28871E1602258E9021A622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19818E346B183C11CB2733FD /* SceneDelegate.swift */; };
 		D0FB809BB10D533B2E7F0D2E /* TuistBundle+SwitchTuistFinalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A887ECDF606F84755EAD72 /* TuistBundle+SwitchTuistFinalTest.swift */; };
@@ -35,6 +36,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				24A83F02B7646B64E38DC088 /* RxSwift.framework in Embed Frameworks */,
+				3455ACBD7586DB558051E5D8 /* DateToolsSwift.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,9 +49,8 @@
 		19818E346B183C11CB2733FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		395D19F772ACB8974E2E8215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C06B2B28D66182303037799 /* SwitchTuistFinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTuistFinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		477CF7888835F53888E37A58 /* DateToolsSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DateToolsSwift.xcframework; sourceTree = "<group>"; };
 		52C24D4ADF1A5172F8C8B0D3 /* ObjcTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcTestViewController.h; sourceTree = "<group>"; };
-		5A5BFB91B411A6712D15FCC7 /* DateTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DateTools.xcframework; sourceTree = "<group>"; };
-		60C4EC5F7B181D93D05AC883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75A887ECDF606F84755EAD72 /* TuistBundle+SwitchTuistFinalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SwitchTuistFinalTest.swift"; sourceTree = "<group>"; };
 		7F9572B530DFE9FF56D05DE6 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841969A2F6ED14F6219320B0 /* ObjcTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTestViewController.m; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		AC0C0CDBFCB99101F1CF311A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD896C1B0792BE1E1D8B11AC /* SwitchTuistFinalTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwitchTuistFinalTest.xcconfig; sourceTree = "<group>"; };
 		D28E87D9E5E17AD57D5AD89D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6712F7A452CA2E8DA7F5369 /* SwitchTuistFinalTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwitchTuistFinalTest-Info.plist"; sourceTree = "<group>"; };
 		EF178A22C2195D2DE2E69D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +73,7 @@
 				2F2697DFDFE2FAFE06FACB75 /* RxCocoaRuntime.framework in Frameworks */,
 				CE171161B85EBE3873E5058A /* RxRelay.framework in Frameworks */,
 				36013104F78E9E9CD60EA84C /* RxSwift.framework in Frameworks */,
-				43CE32CCE3BFEA0CB879713D /* DateTools.xcframework in Frameworks */,
+				CD7286A51290CC290844A2BB /* DateToolsSwift.xcframework in Frameworks */,
 				828F1E5DE06B7E71A7FEECDD /* AssetsPickerViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +146,7 @@
 		D17F47B346DA33B288431E4E /* Xcframework */ = {
 			isa = PBXGroup;
 			children = (
-				5A5BFB91B411A6712D15FCC7 /* DateTools.xcframework */,
+				477CF7888835F53888E37A58 /* DateToolsSwift.xcframework */,
 			);
 			path = Xcframework;
 			sourceTree = "<group>";

@@ -1,0 +1,477 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DateToolsSwift
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import DateToolsSwift
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class Constants {
+  public static let SecondsInYear: Swift.Double
+  public static let SecondsInLeapYear: Swift.Double
+  public static let SecondsInMonth28: Swift.Double
+  public static let SecondsInMonth29: Swift.Double
+  public static let SecondsInMonth30: Swift.Double
+  public static let SecondsInMonth31: Swift.Double
+  public static let SecondsInWeek: Swift.Double
+  public static let SecondsInDay: Swift.Double
+  public static let SecondsInHour: Swift.Double
+  public static let SecondsInMinute: Swift.Double
+  public static let MillisecondsInDay: Swift.Double
+  public static let AllCalendarUnitFlags: Swift.Set<Foundation.Calendar.Component>
+  @objc deinit
+}
+extension Foundation.Bundle {
+  public class func dateToolsBundle() -> Foundation.Bundle
+}
+extension Foundation.Date {
+  public func chunkBetween(date: Foundation.Date) -> DateToolsSwift.TimeChunk
+  public func equals(_ date: Foundation.Date) -> Swift.Bool
+  public func isLater(than date: Foundation.Date) -> Swift.Bool
+  public func isLaterThanOrEqual(to date: Foundation.Date) -> Swift.Bool
+  public func isEarlier(than date: Foundation.Date) -> Swift.Bool
+  public func isEarlierThanOrEqual(to date: Foundation.Date) -> Swift.Bool
+  public func isSameDay(date: Foundation.Date) -> Swift.Bool
+  public static func isSameDay(date: Foundation.Date, as compareDate: Foundation.Date) -> Swift.Bool
+  public func years(from date: Foundation.Date) -> Swift.Int
+  public func months(from date: Foundation.Date) -> Swift.Int
+  public func weeks(from date: Foundation.Date) -> Swift.Int
+  public func days(from date: Foundation.Date) -> Swift.Int
+  public func hours(from date: Foundation.Date) -> Swift.Int
+  public func minutes(from date: Foundation.Date) -> Swift.Int
+  public func seconds(from date: Foundation.Date) -> Swift.Int
+  public func years(from date: Foundation.Date, calendar: Foundation.Calendar?) -> Swift.Int
+  public func months(from date: Foundation.Date, calendar: Foundation.Calendar?) -> Swift.Int
+  public func weeks(from date: Foundation.Date, calendar: Foundation.Calendar?) -> Swift.Int
+  public func days(from date: Foundation.Date, calendar: Foundation.Calendar?) -> Swift.Int
+  public var yearsUntil: Swift.Int {
+    get
+  }
+  public var monthsUntil: Swift.Int {
+    get
+  }
+  public var weeksUntil: Swift.Int {
+    get
+  }
+  public var daysUntil: Swift.Int {
+    get
+  }
+  public var hoursUntil: Swift.Int {
+    get
+  }
+  public var minutesUntil: Swift.Int {
+    get
+  }
+  public var secondsUntil: Swift.Int {
+    get
+  }
+  public var yearsAgo: Swift.Int {
+    get
+  }
+  public var monthsAgo: Swift.Int {
+    get
+  }
+  public var weeksAgo: Swift.Int {
+    get
+  }
+  public var daysAgo: Swift.Int {
+    get
+  }
+  public var hoursAgo: Swift.Int {
+    get
+  }
+  public var minutesAgo: Swift.Int {
+    get
+  }
+  public var secondsAgo: Swift.Int {
+    get
+  }
+  public func yearsEarlier(than date: Foundation.Date) -> Swift.Int
+  public func monthsEarlier(than date: Foundation.Date) -> Swift.Int
+  public func weeksEarlier(than date: Foundation.Date) -> Swift.Int
+  public func daysEarlier(than date: Foundation.Date) -> Swift.Int
+  public func hoursEarlier(than date: Foundation.Date) -> Swift.Int
+  public func minutesEarlier(than date: Foundation.Date) -> Swift.Int
+  public func secondsEarlier(than date: Foundation.Date) -> Swift.Int
+  public func yearsLater(than date: Foundation.Date) -> Swift.Int
+  public func monthsLater(than date: Foundation.Date) -> Swift.Int
+  public func weeksLater(than date: Foundation.Date) -> Swift.Int
+  public func daysLater(than date: Foundation.Date) -> Swift.Int
+  public func hoursLater(than date: Foundation.Date) -> Swift.Int
+  public func minutesLater(than date: Foundation.Date) -> Swift.Int
+  public func secondsLater(than date: Foundation.Date) -> Swift.Int
+}
+extension Foundation.Date {
+  public func component(_ component: Foundation.Calendar.Component) -> Swift.Int
+  public func ordinality(of smaller: Foundation.Calendar.Component, in larger: Foundation.Calendar.Component) -> Swift.Int?
+  @available(*, deprecated, message: "Calendar component hashes no longer yield relevant values and will always return nil. The function is deprecated and will be removed soon.")
+  public func unit(of smaller: Foundation.Calendar.Component, in larger: Foundation.Calendar.Component) -> Swift.Int?
+  public var era: Swift.Int {
+    get
+  }
+  public var year: Swift.Int {
+    get
+  }
+  public var month: Swift.Int {
+    get
+  }
+  public var week: Swift.Int {
+    get
+  }
+  public var day: Swift.Int {
+    get
+  }
+  public var hour: Swift.Int {
+    get
+  }
+  public var minute: Swift.Int {
+    get
+  }
+  public var second: Swift.Int {
+    get
+  }
+  public var weekday: Swift.Int {
+    get
+  }
+  public var weekdayOrdinal: Swift.Int {
+    get
+  }
+  public var quarter: Swift.Int {
+    get
+  }
+  public var weekOfMonth: Swift.Int {
+    get
+  }
+  public var weekOfYear: Swift.Int {
+    get
+  }
+  public var yearForWeekOfYear: Swift.Int {
+    get
+  }
+  public var daysInMonth: Swift.Int {
+    get
+  }
+  public mutating func year(_ year: Swift.Int)
+  public mutating func month(_ month: Swift.Int)
+  public mutating func day(_ day: Swift.Int)
+  public mutating func hour(_ hour: Swift.Int)
+  public mutating func minute(_ minute: Swift.Int)
+  public mutating func second(_ second: Swift.Int)
+  public var isInLeapYear: Swift.Bool {
+    get
+  }
+  public var isToday: Swift.Bool {
+    get
+  }
+  public var isTomorrow: Swift.Bool {
+    get
+  }
+  public var isYesterday: Swift.Bool {
+    get
+  }
+  public var isWeekend: Swift.Bool {
+    get
+  }
+}
+extension Foundation.Date {
+  public func format(with dateStyle: Foundation.DateFormatter.Style, timeZone: Foundation.TimeZone, locale: Foundation.Locale) -> Swift.String
+  public func format(with dateStyle: Foundation.DateFormatter.Style, timeZone: Foundation.TimeZone) -> Swift.String
+  public func format(with dateStyle: Foundation.DateFormatter.Style, locale: Foundation.Locale) -> Swift.String
+  public func format(with dateStyle: Foundation.DateFormatter.Style) -> Swift.String
+  public func format(with dateFormat: Swift.String, timeZone: Foundation.TimeZone, locale: Foundation.Locale) -> Swift.String
+  public func format(with dateFormat: Swift.String, timeZone: Foundation.TimeZone) -> Swift.String
+  public func format(with dateFormat: Swift.String, locale: Foundation.Locale) -> Swift.String
+  public func format(with dateFormat: Swift.String) -> Swift.String
+}
+extension Foundation.Date {
+  public init(year: Swift.Int, month: Swift.Int, day: Swift.Int, hour: Swift.Int, minute: Swift.Int, second: Swift.Int)
+  public init(year: Swift.Int, month: Swift.Int, day: Swift.Int)
+  public init(dateString: Swift.String, format: Swift.String, timeZone: Foundation.TimeZone)
+  public init(dateString: Swift.String, format: Swift.String)
+}
+extension Foundation.Date {
+  public func start(of component: DateToolsSwift.Component) -> Foundation.Date
+  public func end(of component: DateToolsSwift.Component) -> Foundation.Date
+  public func daysInMonth(date: Foundation.Date) -> Swift.Int
+  public func add(_ chunk: DateToolsSwift.TimeChunk) -> Foundation.Date
+  public func subtract(_ chunk: DateToolsSwift.TimeChunk) -> Foundation.Date
+  public static func + (leftAddend: Foundation.Date, rightAddend: DateToolsSwift.TimeChunk) -> Foundation.Date
+  public static func - (minuend: Foundation.Date, subtrahend: DateToolsSwift.TimeChunk) -> Foundation.Date
+  public static func + (leftAddend: Foundation.Date, rightAddend: Swift.Int) -> Foundation.Date
+  public static func - (minuend: Foundation.Date, subtrahend: Swift.Int) -> Foundation.Date
+}
+extension Foundation.Date {
+  public static func timeAgo(since date: Foundation.Date) -> Swift.String
+  public static func shortTimeAgo(since date: Foundation.Date) -> Swift.String
+  public var timeAgoSinceNow: Swift.String {
+    get
+  }
+  public var shortTimeAgoSinceNow: Swift.String {
+    get
+  }
+  public func timeAgo(since date: Foundation.Date, numericDates: Swift.Bool = false, numericTimes: Swift.Bool = false) -> Swift.String
+  public func shortTimeAgo(since date: Foundation.Date) -> Swift.String
+  public func earlierDate(_ date: Foundation.Date) -> Foundation.Date
+  public func laterDate(_ date: Foundation.Date) -> Foundation.Date
+}
+public enum Relation {
+  case after
+  case startTouching
+  case startInside
+  case insideStartTouching
+  case enclosingStartTouching
+  case enclosing
+  case enclosingEndTouching
+  case exactMatch
+  case inside
+  case insideEndTouching
+  case endInside
+  case endTouching
+  case before
+  case none
+  public static func == (a: DateToolsSwift.Relation, b: DateToolsSwift.Relation) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Interval {
+  case open
+  case closed
+  public static func == (a: DateToolsSwift.Interval, b: DateToolsSwift.Interval) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Anchor {
+  case beginning
+  case center
+  case end
+  public static func == (a: DateToolsSwift.Anchor, b: DateToolsSwift.Anchor) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Component {
+  case year
+  case month
+  case day
+  case hour
+  case minute
+  case second
+  public static func == (a: DateToolsSwift.Component, b: DateToolsSwift.Component) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TimeUnits {
+  case years
+  case weeks
+  case days
+  case hours
+  case minutes
+  case seconds
+  public static func == (a: DateToolsSwift.TimeUnits, b: DateToolsSwift.TimeUnits) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Swift.Int {
+  public var seconds: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var minutes: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var hours: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var days: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var weeks: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var months: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var years: DateToolsSwift.TimeChunk {
+    get
+  }
+}
+public struct TimeChunk {
+  public var seconds: Swift.Int
+  public var minutes: Swift.Int
+  public var hours: Swift.Int
+  public var days: Swift.Int
+  public var weeks: Swift.Int
+  public var months: Swift.Int
+  public var years: Swift.Int
+  public init()
+  public init(seconds: Swift.Int, minutes: Swift.Int, hours: Swift.Int, days: Swift.Int, weeks: Swift.Int, months: Swift.Int, years: Swift.Int)
+  public func equals(chunk: DateToolsSwift.TimeChunk) -> Swift.Bool
+  public func to(_ unit: DateToolsSwift.TimeUnits) -> Swift.Int
+  public var earlier: Foundation.Date {
+    get
+  }
+  public var later: Foundation.Date {
+    get
+  }
+  public func earlier(than date: Foundation.Date) -> Foundation.Date
+  public func later(than date: Foundation.Date) -> Foundation.Date
+  public func lengthened(by chunk: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimeChunk
+  public func shortened(by chunk: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimeChunk
+  public mutating func lengthen(by chunk: DateToolsSwift.TimeChunk)
+  public mutating func shorten(by chunk: DateToolsSwift.TimeChunk)
+  public static func + (leftAddend: DateToolsSwift.TimeChunk, rightAddend: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimeChunk
+  public static func - (minuend: DateToolsSwift.TimeChunk, subtrahend: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimeChunk
+  public static func == (left: DateToolsSwift.TimeChunk, right: DateToolsSwift.TimeChunk) -> Swift.Bool
+  prefix public static func - (chunk: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimeChunk
+}
+public protocol TimePeriodProtocol {
+  var beginning: Foundation.Date? { get set }
+  var end: Foundation.Date? { get set }
+}
+extension DateToolsSwift.TimePeriodProtocol {
+  public var isMoment: Swift.Bool {
+    get
+  }
+  public var years: Swift.Int {
+    get
+  }
+  public var weeks: Swift.Int {
+    get
+  }
+  public var days: Swift.Int {
+    get
+  }
+  public var hours: Swift.Int {
+    get
+  }
+  public var minutes: Swift.Int {
+    get
+  }
+  public var seconds: Swift.Int {
+    get
+  }
+  public var chunk: DateToolsSwift.TimeChunk {
+    get
+  }
+  public var duration: Foundation.TimeInterval {
+    get
+  }
+  public func relation(to period: any DateToolsSwift.TimePeriodProtocol) -> DateToolsSwift.Relation
+  public func equals(_ period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func isInside(of period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func contains(_ date: Foundation.Date, interval: DateToolsSwift.Interval) -> Swift.Bool
+  public func contains(_ period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func overlaps(with period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func intersects(with period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func hasGap(between period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func gap(between period: any DateToolsSwift.TimePeriodProtocol) -> Foundation.TimeInterval
+  public func gap(between period: any DateToolsSwift.TimePeriodProtocol) -> DateToolsSwift.TimeChunk?
+  public func isAfter(period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public func isBefore(period: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  public mutating func shift(by timeInterval: Foundation.TimeInterval)
+  public mutating func shift(by chunk: DateToolsSwift.TimeChunk)
+  public mutating func lengthen(by timeInterval: Foundation.TimeInterval, at anchor: DateToolsSwift.Anchor)
+  public mutating func lengthen(by chunk: DateToolsSwift.TimeChunk, at anchor: DateToolsSwift.Anchor)
+  public mutating func shorten(by timeInterval: Foundation.TimeInterval, at anchor: DateToolsSwift.Anchor)
+  public mutating func shorten(by chunk: DateToolsSwift.TimeChunk, at anchor: DateToolsSwift.Anchor)
+}
+open class TimePeriod : DateToolsSwift.TimePeriodProtocol {
+  public var beginning: Foundation.Date?
+  public var end: Foundation.Date?
+  public init()
+  public init(beginning: Foundation.Date?, end: Foundation.Date?)
+  public init(beginning: Foundation.Date, duration: Foundation.TimeInterval)
+  public init(end: Foundation.Date, duration: Foundation.TimeInterval)
+  public init(beginning: Foundation.Date, chunk: DateToolsSwift.TimeChunk)
+  public init(end: Foundation.Date, chunk: DateToolsSwift.TimeChunk)
+  public init(chunk: DateToolsSwift.TimeChunk)
+  public func shifted(by timeInterval: Foundation.TimeInterval) -> DateToolsSwift.TimePeriod
+  public func shifted(by chunk: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimePeriod
+  public func lengthened(by timeInterval: Foundation.TimeInterval, at anchor: DateToolsSwift.Anchor) -> DateToolsSwift.TimePeriod
+  public func lengthened(by chunk: DateToolsSwift.TimeChunk, at anchor: DateToolsSwift.Anchor) -> DateToolsSwift.TimePeriod
+  public func shortened(by timeInterval: Foundation.TimeInterval, at anchor: DateToolsSwift.Anchor) -> DateToolsSwift.TimePeriod
+  public func shortened(by chunk: DateToolsSwift.TimeChunk, at anchor: DateToolsSwift.Anchor) -> DateToolsSwift.TimePeriod
+  public static func == (leftAddend: DateToolsSwift.TimePeriod, rightAddend: DateToolsSwift.TimePeriod) -> Swift.Bool
+  public static func + (leftAddend: DateToolsSwift.TimePeriod, rightAddend: Foundation.TimeInterval) -> DateToolsSwift.TimePeriod
+  public static func + (leftAddend: DateToolsSwift.TimePeriod, rightAddend: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimePeriod
+  public static func - (minuend: DateToolsSwift.TimePeriod, subtrahend: Foundation.TimeInterval) -> DateToolsSwift.TimePeriod
+  public static func - (minuend: DateToolsSwift.TimePeriod, subtrahend: DateToolsSwift.TimeChunk) -> DateToolsSwift.TimePeriod
+  public static func == (left: DateToolsSwift.TimePeriod, right: any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers open class TimePeriodChain : DateToolsSwift.TimePeriodGroup {
+  public func append(_ period: any DateToolsSwift.TimePeriodProtocol)
+  public func append<G>(contentsOf group: G) where G : DateToolsSwift.TimePeriodGroup
+  public func insert(_ period: any DateToolsSwift.TimePeriodProtocol, at index: Swift.Int)
+  public func remove(at index: Swift.Int)
+  public func removeAll()
+  public func shift(by duration: Foundation.TimeInterval)
+  override public func map<T>(_ transform: (any DateToolsSwift.TimePeriodProtocol) throws -> T) rethrows -> [T]
+  override public func filter(_ isIncluded: (any DateToolsSwift.TimePeriodProtocol) throws -> Swift.Bool) rethrows -> [any DateToolsSwift.TimePeriodProtocol]
+  public func pop() -> (any DateToolsSwift.TimePeriodProtocol)?
+  public static func == (left: DateToolsSwift.TimePeriodChain, right: DateToolsSwift.TimePeriodChain) -> Swift.Bool
+  override public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers open class TimePeriodCollection : DateToolsSwift.TimePeriodGroup {
+  public func append(_ period: any DateToolsSwift.TimePeriodProtocol)
+  public func append(_ periodArray: [any DateToolsSwift.TimePeriodProtocol])
+  public func append<C>(contentsOf newPeriods: C) where C : DateToolsSwift.TimePeriodGroup
+  public func insert(_ newElement: any DateToolsSwift.TimePeriodProtocol, at index: Swift.Int)
+  public func remove(at: Swift.Int)
+  public func removeAll()
+  public func sortByBeginning()
+  public func sort(by areInIncreasingOrder: (any DateToolsSwift.TimePeriodProtocol, any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool)
+  public func sortedByBeginning() -> DateToolsSwift.TimePeriodCollection
+  public func sorted(by areInIncreasingOrder: (any DateToolsSwift.TimePeriodProtocol, any DateToolsSwift.TimePeriodProtocol) -> Swift.Bool) -> DateToolsSwift.TimePeriodCollection
+  public func allInside(in period: any DateToolsSwift.TimePeriodProtocol) -> DateToolsSwift.TimePeriodCollection
+  public func periodsIntersected(by date: Foundation.Date) -> DateToolsSwift.TimePeriodCollection
+  public func periodsIntersected(by period: any DateToolsSwift.TimePeriodProtocol) -> DateToolsSwift.TimePeriodCollection
+  public func map(_ transform: (any DateToolsSwift.TimePeriodProtocol) throws -> any DateToolsSwift.TimePeriodProtocol) rethrows -> DateToolsSwift.TimePeriodCollection
+  public static func == (left: DateToolsSwift.TimePeriodCollection, right: DateToolsSwift.TimePeriodCollection) -> Swift.Bool
+  override public init()
+  @objc deinit
+}
+open class TimePeriodGroup : Swift.Sequence {
+  public var beginning: Foundation.Date? {
+    get
+  }
+  public var end: Foundation.Date? {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public var duration: Foundation.TimeInterval? {
+    get
+  }
+  public init()
+  public func equals(_ group: DateToolsSwift.TimePeriodGroup) -> Swift.Bool
+  public func makeIterator() -> Swift.IndexingIterator<Swift.Array<any DateToolsSwift.TimePeriodProtocol>>
+  public func map<T>(_ transform: (any DateToolsSwift.TimePeriodProtocol) throws -> T) rethrows -> [T]
+  public func filter(_ isIncluded: (any DateToolsSwift.TimePeriodProtocol) throws -> Swift.Bool) rethrows -> [any DateToolsSwift.TimePeriodProtocol]
+  public func forEach(_ body: (any DateToolsSwift.TimePeriodProtocol) throws -> Swift.Void) rethrows
+  public func split(maxSplits: Swift.Int, omittingEmptySubsequences: Swift.Bool, whereSeparator isSeparator: (any DateToolsSwift.TimePeriodProtocol) throws -> Swift.Bool) rethrows -> [Swift.AnySequence<any DateToolsSwift.TimePeriodProtocol>]
+  public typealias Element = Swift.IndexingIterator<Swift.Array<any DateToolsSwift.TimePeriodProtocol>>.Element
+  public typealias Iterator = Swift.IndexingIterator<Swift.Array<any DateToolsSwift.TimePeriodProtocol>>
+  @objc deinit
+}
+extension DateToolsSwift.Relation : Swift.Equatable {}
+extension DateToolsSwift.Relation : Swift.Hashable {}
+extension DateToolsSwift.Interval : Swift.Equatable {}
+extension DateToolsSwift.Interval : Swift.Hashable {}
+extension DateToolsSwift.Anchor : Swift.Equatable {}
+extension DateToolsSwift.Anchor : Swift.Hashable {}
+extension DateToolsSwift.Component : Swift.Equatable {}
+extension DateToolsSwift.Component : Swift.Hashable {}
+extension DateToolsSwift.TimeUnits : Swift.Equatable {}
+extension DateToolsSwift.TimeUnits : Swift.Hashable {}
