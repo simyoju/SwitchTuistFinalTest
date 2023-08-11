@@ -48,9 +48,9 @@
           "name" : "RxSwift",
           "settings" : {
             "base" : {
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
                 }
               },
               "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
@@ -63,17 +63,22 @@
                   "_0" : "YES"
                 }
               },
-              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
-                "string" : {
-                  "_0" : "YES"
-                }
-              },
               "FRAMEWORK_SEARCH_PATHS" : {
                 "array" : {
                   "_0" : [
                     "$(inherited)",
                     "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
                   ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
                 }
               },
               "USE_HEADERMAP" : {
@@ -84,11 +89,6 @@
               "GCC_NO_COMMON_BLOCKS" : {
                 "string" : {
                   "_0" : "NO"
-                }
-              },
-              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
-                "string" : {
-                  "_0" : "$(inherited) SWIFT_PACKAGE"
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -147,283 +147,211 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sequence.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Maybe.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BooleanDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ElementAt.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentMainScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reduce.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableScheduledItem.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserveOn.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Concat.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Lock.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Delay.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DefaultIfEmpty.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/StartWith.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+PrimitiveSequence.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/LockOwnerType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Observable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debounce.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeWhile.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Single.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Take.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Empty.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Optional.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscriptionDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Skip.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Throttle.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipUntil.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDispatchQueueScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Do.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeUntil.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Buffer.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Errors.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Catch.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/NopDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Deprecated.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipWhile.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Just.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedOnType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DistinctUntilChanged.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConnectableObservableType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompactMap.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Merge.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Queue.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InfiniteSequence.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedDisposeType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwitchIfEmpty.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ReplaySubject.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Range.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/WithLatestFrom.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BinaryDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BehaviorSubject.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveLock.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Dematerialize.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ToArray.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDisposable.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedOnType.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Filter.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeScheduler.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Amb.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAssignmentDisposable.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AddRef.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscriptionDisposable.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeConverterType.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DistinctUntilChanged.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposable.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubjectType.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/First.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Linux.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Never.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DefaultIfEmpty.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timer.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ShareReplayScope.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Scan.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Repeat.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debug.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItemType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueueConfiguration.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserveOn.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RefCountDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/WithLatestFrom.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAsync.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Take.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CurrentThreadScheduler.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Generate.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsMaybe.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableConvertibleType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposables.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timeout.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence+Zip+arity.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Producer.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnyObserver.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerServices+Emulation.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Enumerated.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Deferred.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscribeOn.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PriorityQueue.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable+AndThen.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompositeDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwiftSupport.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RxMutableBox.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Cancelable.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DelaySubscription.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+Collection.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Materialize.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwitchIfEmpty.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueue+Extensions.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PublishSubject.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Lock.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/OperationQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncLock.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscribeOn.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sink.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Merge.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AtomicInt.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableConvertibleType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AddRef.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Filter.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Single.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Date+Dispatch.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Maybe.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TailRecursiveSink.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Amb.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Delay.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Queue.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Scan.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ImmediateSchedulerType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Optional.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsSingle.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposables.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveLock.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Observable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeUntil.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sequence.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/MainScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupBy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Just.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Range.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Catch.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentDispatchQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBase.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PriorityQueue.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Using.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Event.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeConverterType.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupedObservable.swift"
@@ -432,169 +360,241 @@
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncSubject.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Multicast.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItemType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Error.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Using.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/MainScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubjectType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+arity.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Window.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncLock.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Darwin.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DelaySubscription.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBase.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedUnsubscribeType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+Extensions.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TailRecursiveSink.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Switch.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ShareReplayScope.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeLast.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+Collection.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ImmediateSchedulerType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RefCountDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBag.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupBy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueueConfiguration.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentDispatchQueueScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reactive.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItem.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Event.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/OperationQueueScheduler.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalSchedulerTimeConverter.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsSingle.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Switch.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousDisposable.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Throttle.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAsync.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Producer.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Map.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Error.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PublishSubject.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerServices+Emulation.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sink.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Enumerated.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsMaybe.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BinaryDisposable.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sample.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BehaviorSubject.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AtomicInt.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+arity.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Date+Dispatch.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Create.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAssignmentDisposable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverBase.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Rx.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousObserver.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Dematerialize.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Repeat.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Window.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Linux.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Skip.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/StartWith.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sample.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Concat.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RetryWhen.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RxMutableBox.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Deprecated.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnyObserver.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Deferred.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reduce.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBag.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+PrimitiveSequence.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debounce.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+arity.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reactive.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable+AndThen.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Create.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Map.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/NopDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItem.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/First.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InfiniteSequence.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedUnsubscribeType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableScheduledItem.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Multicast.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedDisposeType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ElementAt.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence+Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Do.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompositeDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Generate.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipUntil.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConnectableObservableType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Never.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Darwin.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BooleanDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverBase.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Empty.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeWhile.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Materialize.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDispatchQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompactMap.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueue+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/LockOwnerType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ReplaySubject.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentMainScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeLast.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwiftSupport.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Errors.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debug.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipWhile.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timer.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Cancelable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Buffer.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timeout.swift"
             }
           ],
           "resources" : [
@@ -666,9 +666,12 @@
           "name" : "RxCocoa",
           "settings" : {
             "base" : {
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
-                "string" : {
-                  "_0" : "NO"
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
                 }
               },
               "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
@@ -676,12 +679,9 @@
                   "_0" : "NO"
                 }
               },
-              "GCC_PREPROCESSOR_DEFINITIONS" : {
-                "array" : {
-                  "_0" : [
-                    "$(inherited)",
-                    "SWIFT_PACKAGE=1"
-                  ]
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
                 }
               },
               "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
@@ -707,9 +707,9 @@
                   "_0" : "NO"
                 }
               },
-              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
                 "string" : {
-                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                  "_0" : "NO"
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -765,178 +765,109 @@
           },
           "sources" : [
             {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBarItem+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSImageView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/TextInput.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxNavigationControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourcePrefetchingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIImageView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIScrollView+Rx.swift"
+            },
+            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DispatchQueue+Extensions.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+KVORepresentable.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIImageView+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDelegateProxy.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/TextInput.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIBarButtonItem+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal+Subscription.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTarget.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxScrollViewDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIAlertAction+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SectionedViewDataSourceType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBarController+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver+Subscription.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIViewController+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceType.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIProgressView+Rx.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Observable+Bind.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBarItem+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextViewDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoaObjCRuntimeError+Extensions.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIScrollView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextField+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISlider+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISegmentedControl+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextStorage+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIPageControl+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourcePrefetchingProxy.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewAdapter.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoa.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ItemEvents.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+RawRepresentable.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal+Subscription.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIDatePicker+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UICollectionView+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UINavigationItem+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NotificationCenter+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSControl+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSButton+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSSlider+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty+Driver.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KeyPathBinder.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewReactiveArrayDataSource.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIViewController+Rx.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceType.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/URLSession+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIBarButtonItem+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewReactiveArrayDataSource.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIPickerView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/WKWebView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Binder.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISwitch+Rx.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+Driver.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchControllerDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITableView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchBarDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourcePrefetchingProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SchedulerType+SharedSequence.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSLayoutConstraint+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextView+Rx.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxWKNavigationDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIRefreshControl+Rx.swift"
@@ -945,142 +876,211 @@
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlTarget.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIGestureRecognizer+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIView+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIStepper+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISlider+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarControllerDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UILabel+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextStorageDelegateProxy.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver+Subscription.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchController+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/BehaviorRelay+Driver.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+CoreGraphics.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxNavigationControllerDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIApplication+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/PublishRelay+Signal.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Logging.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Binder.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSImageView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/WKWebView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ItemEvents.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarDelegateProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISwitch+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIActivityIndicatorView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+SharedSequence.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceType.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceProxy.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+Swift.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIControl+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIPickerView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIProgressView+Rx.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Signal.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextField+Rx.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators+arity.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextView+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISegmentedControl+Rx.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Deprecated.swift"
             },
             {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextView+Rx.swift"
+            },
+            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBar+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDelegateProxy.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxyType.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Driver.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextStorageDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSSlider+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarControllerDelegateProxy.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+Signal.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UINavigationController+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextField+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NotificationCenter+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UILabel+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchBar+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+Swift.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UICollectionView+Rx.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoaObjCRuntimeError+Extensions.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSLayoutConstraint+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBarController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourcePrefetchingProxy.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIButton+Rx.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewReactiveArrayDataSource.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITableView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIGestureRecognizer+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIPageControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextStorage+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SchedulerType+SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIStepper+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchBar+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+RawRepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxyType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UINavigationController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/URLSession+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextField+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIDatePicker+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/PublishRelay+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSButton+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBar+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/BehaviorRelay+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UINavigationItem+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SectionedViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIApplication+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchBarDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+CoreGraphics.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTarget.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewReactiveArrayDataSource.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Logging.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxScrollViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KeyPathBinder.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoa.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIAlertAction+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIActivityIndicatorView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceType.swift"
             }
           ],
           "resources" : [
@@ -1167,14 +1167,14 @@
                   "_0" : "NO"
                 }
               },
-              "ALWAYS_SEARCH_USER_PATHS" : {
-                "string" : {
-                  "_0" : "YES"
-                }
-              },
               "GCC_NO_COMMON_BLOCKS" : {
                 "string" : {
                   "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
                 }
               },
               "HEADER_SEARCH_PATHS" : {
@@ -1249,16 +1249,16 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXKVOObserver.m"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RX.m"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXObjCRuntime.m"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXDelegateProxy.m"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXObjCRuntime.m"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RX.m"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXKVOObserver.m"
             }
           ],
           "resources" : [
@@ -1340,12 +1340,12 @@
                   "_0" : "$(inherited) SWIFT_PACKAGE"
                 }
               },
-              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "YES"
                 }
               },
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
                 "string" : {
                   "_0" : "NO"
                 }
@@ -1368,17 +1368,17 @@
                   "_0" : "NO"
                 }
               },
-              "USE_HEADERMAP" : {
-                "string" : {
-                  "_0" : "NO"
-                }
-              },
               "GCC_PREPROCESSOR_DEFINITIONS" : {
                 "array" : {
                   "_0" : [
                     "$(inherited)",
                     "SWIFT_PACKAGE=1"
                   ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -1391,9 +1391,9 @@
                   "_0" : "NO"
                 }
               },
-              "ALWAYS_SEARCH_USER_PATHS" : {
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
                 "string" : {
-                  "_0" : "YES"
+                  "_0" : "NO"
                 }
               }
             },
@@ -1434,13 +1434,13 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Observable+Bind.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/PublishRelay.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Observable+Bind.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/BehaviorRelay.swift"
@@ -1520,11 +1520,6 @@
                   "_0" : "NO"
                 }
               },
-              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
-                "string" : {
-                  "_0" : "YES"
-                }
-              },
               "FRAMEWORK_SEARCH_PATHS" : {
                 "array" : {
                   "_0" : [
@@ -1533,9 +1528,9 @@
                   ]
                 }
               },
-              "GCC_NO_COMMON_BLOCKS" : {
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "YES"
                 }
               },
               "USE_HEADERMAP" : {
@@ -1543,9 +1538,17 @@
                   "_0" : "NO"
                 }
               },
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
+              "GCC_NO_COMMON_BLOCKS" : {
                 "string" : {
                   "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -1558,19 +1561,16 @@
                   "_0" : "NO"
                 }
               },
-              "GCC_PREPROCESSOR_DEFINITIONS" : {
-                "array" : {
-                  "_0" : [
-                    "$(inherited)",
-                    "SWIFT_PACKAGE=1"
-                  ]
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
                 }
               }
             },
             "configurations" : [
               {
-                "name" : "Debug",
-                "variant" : "debug"
+                "name" : "Release",
+                "variant" : "release"
               },
               {
                 "settings" : {
@@ -1578,8 +1578,8 @@
                 }
               },
               {
-                "name" : "Release",
-                "variant" : "release"
+                "name" : "Debug",
+                "variant" : "debug"
               },
               {
                 "settings" : {
@@ -1604,31 +1604,31 @@
           },
           "sources" : [
             {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Darwin.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RecursiveLock.swift"
+            },
+            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Resources.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Linux.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/ObservableConvertibleType+Blocking.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Darwin.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable+Operators.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RunLoopLock.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RecursiveLock.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Linux.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/AtomicInt.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable+Operators.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/ObservableConvertibleType+Blocking.swift"
             }
           ],
           "resources" : [
@@ -1759,8 +1759,8 @@
             },
             "configurations" : [
               {
-                "name" : "Release",
-                "variant" : "release"
+                "name" : "Debug",
+                "variant" : "debug"
               },
               {
                 "settings" : {
@@ -1768,8 +1768,8 @@
                 }
               },
               {
-                "name" : "Debug",
-                "variant" : "debug"
+                "name" : "Release",
+                "variant" : "release"
               },
               {
                 "settings" : {
@@ -1794,37 +1794,22 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Any+Equatable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/HotObservable.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Deprecated.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded+Event.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Event+Equatable.swift"
-            },
-            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/XCTest+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/ColdObservable.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObservable.swift"
             },
             {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/HotObservable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Any+Equatable.swift"
+            },
+            {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestScheduler.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Bag.swift"
-            },
-            {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObserver.swift"
             },
             {
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Subscription.swift"
@@ -1833,10 +1818,25 @@
               "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/RxTest.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestSchedulerVirtualTimeConverter.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded+Event.swift"
             },
             {
-              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/ColdObservable.swift"
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Deprecated.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Bag.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Event+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObserver.swift"
+            },
+            {
+              "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestSchedulerVirtualTimeConverter.swift"
             }
           ],
           "resources" : [
@@ -1957,9 +1957,9 @@
           },
           "parser" : "fonts",
           "extensions" : [
-            "otf",
+            "ttf",
             "ttc",
-            "ttf"
+            "otf"
           ]
         }
       ],
@@ -1973,18 +1973,18 @@
   "externalDependencies" : [
     "ios",
     {
-      "RxTest" : [
-        {
-          "project" : {
-            "target" : "RxTest",
-            "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
-          }
-        }
-      ],
       "RxBlocking" : [
         {
           "project" : {
             "target" : "RxBlocking",
+            "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+          }
+        }
+      ],
+      "RxTest" : [
+        {
+          "project" : {
+            "target" : "RxTest",
             "path" : "\/Users\/muzlive_player\/ForTest\/SwitchTuistFinalTest\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
           }
         }

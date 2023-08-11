@@ -3,6 +3,20 @@
 
 import ProjectDescription
 
+let baseSettings: [String: SettingValue] = [
+    "SWIFT_OBJC_BRIDGING_HEADER": "SwitchTuistFinalTest/Objc/SwitchTuistFinalTest-Bridging-Header.h"
+]
+
+//let releaseSettings: [String: SettingValue] = [
+//    "EXCLUDED_SOURCE_FILE_NAMES": "제외할파일"
+//]
+
+let settings: Settings = .settings(
+    base: baseSettings,
+//    release: releaseSettings,
+    defaultSettings: .recommended
+)
+
 let project = Project(
     name: "SwitchTuistFinalTest",
     organizationName: "hyoju sim",
@@ -10,7 +24,7 @@ let project = Project(
         .remote(url: "https://github.com/DragonCherry/AssetsPickerViewController",
                 requirement: .upToNextMajor(from: "2.9.3")),
     ],
-    settings: baseSettings(),
+    settings: settings,
     targets: [
         Target(
             name: "SwitchTuistFinalTest",
@@ -31,15 +45,7 @@ let project = Project(
     ]
 )
 
-private func baseSettings() -> Settings {
-    var settings = SettingsDictionary()
-    return Settings.settings(base: settings,
-                             configurations: [
-                                .debug(name: "Debug", xcconfig: .relativeToRoot("SwitchTuistFinalTest.xcconfig"))
-                             ],
-                             defaultSettings: .recommended(excluding: ["ASSETCATALOG_COMPILER_APPICON_NAME"])
-    )
-}
+
 
 private func setupDependencies() -> [TargetDependency] {
     return [
