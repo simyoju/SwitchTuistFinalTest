@@ -70,6 +70,7 @@ private func setupInfoPlist(merging other: [String: InfoPlist.Value] = [:]) -> I
                 ]
             ]
         ],
+        "NSPhotoLibraryUsageDescription": "Select Photo",
         "UILaunchScreen": [],
         "UISupportedInterfaceOrientations":
             [
